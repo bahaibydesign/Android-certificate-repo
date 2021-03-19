@@ -1,5 +1,9 @@
-fun main(){
-    println("=====================")
+fun main() {
+    printBorder()
     println("happy birthday, Jhansi")
-    println("=====================")
+    printBorder()
+  }
+
+fun printBorder() {
+    println("=================")
 }
