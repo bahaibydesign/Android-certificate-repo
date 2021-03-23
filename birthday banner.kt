@@ -5,5 +5,8 @@ fun main() {
   }
 
 fun printBorder() {
-    println("=================")
+    repeat(23){
+      print("=")
+    }
+    println()
 }
