@@ -1,12 +1,13 @@
 fun main() {
-    printBorder()
+    val border = "%"
+    printBorder(border)
     println("happy birthday, Jhansi")
-    printBorder()
+    printBorder(border)
   }
 
-fun printBorder() {
+fun printBorder(border: String) {
     repeat(23){
-      print("=")
+      print(border)
     }
     println()
 }
